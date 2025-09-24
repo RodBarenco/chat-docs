@@ -10,6 +10,7 @@ Este projeto permite criar um chatbot capaz de responder perguntas sobre arquivo
 - Busca simples por relevância via overlap de palavras.
 - Resposta do modelo exibida no Streamlit.
 - Cadeia de pensamento (opcional) exibida em um expander para modelos que suportam.
+- Chat livre
 
 ## Pré-requisitos
 
@@ -38,6 +39,7 @@ pip install -r requirements.txt
 ollama pull gemma3:1b
 ollama pull gemma3:270m
 ollama pull qwen3:4b
+ollama pull granite3.3:2b
 ```
 
 ## Como usar
