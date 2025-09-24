@@ -5,3 +5,5 @@ ollama
 pypdf
 python-docx
 faiss-cpu
+docx2txt
+
